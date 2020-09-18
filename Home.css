@@ -23,7 +23,7 @@ body{
     width: 85%;
     margin-right: auto;
     margin-left: auto;
-    border: double 5px lightblue;
+    border: double 5px #add8e6;
 
 }
 header{
@@ -40,7 +40,7 @@ h1#title{
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
-    color: lightblue;
+    color: #add8e6;
     text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0),
                  0 3px 0 rgb(0, 0, 0), 0 4px 0 rgb(0, 0, 0),
                  0 5px 0 rgb(0, 0, 0), 0 6px 0 rgb(0, 0, 0),
@@ -124,6 +124,15 @@ article h5{
     margin-right: auto;
     margin-left: auto;
 }
+
+/* svg { 
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto; 
+    padding:0; 
+} */
 
 
 
