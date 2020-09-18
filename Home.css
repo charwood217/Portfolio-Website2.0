@@ -1,0 +1,146 @@
+@charset 'utf-8';
+/* *{
+    outline: red solid 5px;
+} */
+/* Font Styles */
+@font-face{
+    font-family:mainFont;
+    src:url(earthorbiter.ttf)
+}
+html{
+     /* background: url("cool-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: invert(100%); */
+    background: black;
+    width: 100%; 
+}
+/*Body*/
+body{
+    font-family: mainFont;
+    background: linear-gradient(black 80%, lightblue);
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    border: double 5px lightblue;
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+h1#title{
+    /* background-color: black; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    color: lightblue;
+    text-shadow: 0 1px 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0),
+                 0 3px 0 rgb(0, 0, 0), 0 4px 0 rgb(0, 0, 0),
+                 0 5px 0 rgb(0, 0, 0), 0 6px 0 rgb(0, 0, 0),
+                 0 7px 0 rgb(0, 0, 0), 0 8px 0 rgb(0, 0, 0),
+                 0 9px 0 rgb(0, 0, 0), 0 10px 0 rgb(0, 0, 0),
+                 0 11px 0 rgb(0, 0, 0), 0 12px 0 rgb(0, 0, 0), 
+                 0 20px 30px rgba(0,0,0,0.5);
+}
+/*Divs and Rows*/
+.col-1-5{
+    /* width:19.87%; */
+    width:20%;
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 1px lightblue solid; */
+}
+div.col-1-5:hover, a:active{
+    background-color: lightblue;
+    color:black;
+}
+#row1{
+  border: lightblue solid 2px;  
+}
+#row1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+div.container{
+    display: flex;
+}
+/*Nav Bar*/
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav a:hover, a:active{
+    color: black;
+}
+nav a:link, a:visited{
+    color: white;
+}
+
+/*Article "About Me"*/
+article h1{
+    width: 30%;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+article p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+article h5{
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*Footer*/
+footer{
+    background-color: lightblue;
+    text-align: center;
+    border: solid black 2px;
+}
+footer a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover, a:visited{
+    color: white;
+    text-decoration: underline;
+}
+span#copyR{
+    font-size: 20px;
+}
