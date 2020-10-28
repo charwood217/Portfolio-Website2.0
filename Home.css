@@ -81,6 +81,7 @@ div.col-1-5:hover, a:active{
 }
 div.container{
     display: flex;
+    padding: 15px;
 }
 /*Nav Bar*/
 
@@ -97,6 +98,15 @@ nav a:link, a:visited{
 }
 
 /*Article "About Me"*/
+div#aboutMe{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 30px;
+}
 article h1{
     width: 30%;
     background-color: lightblue;
@@ -104,6 +114,7 @@ article h1{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    text-shadow: 2px 2px white;
 }
 article p{
     text-align: center;
@@ -112,6 +123,7 @@ article p{
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    text-shadow: 2px 2px black;
     
 }
 article h5{
@@ -125,14 +137,30 @@ article h5{
     margin-left: auto;
 }
 
-/* svg { 
-    height: 100px;
-    width: 100px;
-    background-color: lightblue;
+svg { 
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: lightblue;
     margin-left: auto;
     margin-right: auto; 
     padding:0; 
-} */
+}
+div.box1{
+    border: 3px lightblue solid;
+}
+div.box2{
+    border: 3px lightblue solid;
+}
+div.box3{
+    border: 3px lightblue solid;
+}
+div.box4{
+    border: 3px lightblue solid;
+}
+div.box5{
+    border: 3px lightblue solid;
+}
 
 
 
