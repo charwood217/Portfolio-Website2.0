@@ -25,7 +25,3 @@ anychart.onDocumentReady(function() {
     chart.draw();
   
   });
-  
-  
-  
-  Resources
