@@ -12,12 +12,13 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: mainFont;
     /* background: black; */
     width: 100%; 
 }
 /*Body*/
 body{
-    font-family: mainFont;
+    /* font-family: mainFont; */
     /* background: linear-gradient(black 70%, lightblue); */
     background-color: transparent;
     width: 100%;
@@ -111,7 +112,7 @@ div.container{
 }
 /*Landing page*/
 .landing{
-    width: 99vw;
+    width: 99.4vw;
     height: 150vh;
     background: url("landing2.jpg") center center;
     background-attachment: fixed;
@@ -269,32 +270,52 @@ div.box-5{
     display: flex;
     justify-content: left;
 }
+img.chris1{
+    border: 1em lightblue ridge;
+}
+img.chris2{
+    border: 1em lightblue ridge;
+}
+img.chris3{
+    border: 1em lightblue ridge;
+}
+img.chris4{
+    border: 1em lightblue ridge;
+}
 .chris1{
     height: 500px;
     width: 450px;
-    margin: 20px;
-    padding-left: 110px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 7vw;
+    margin-top: 2vw;
+    /* padding-left: 110px; */
 }
 .chris2{
     height: 500px;
     width: 425px;
-    margin-top: 20px;
-    padding-left: 55px;
+    margin-left: 5vw;
+    margin-right: 7vw;
+    margin-bottom: 7vw;
+    margin-top: 2vw;
+    
+    /* padding-left: 55px; */
 }
 .chris3{
     height: 400px;
     width: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding-left: 110px;
+    margin-left: 5vw;
+    margin-right: 7vw;
+    margin-bottom: 7vw;
+    margin-top: 2vw;
 }
 .chris4{
     height: 575px;
     width: 525px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding-left: 55px;
+    margin-left: 4vw;
+    margin-right: 7vw;
+    margin-bottom: 7vw;
+    margin-top: 2vw;
 }
 
 /*Footer*/
