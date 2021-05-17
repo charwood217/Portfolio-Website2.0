@@ -181,7 +181,6 @@ div#aboutMe{
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-    height: 100px;
     background-color: rgb(173, 216, 230);
     border-radius: 30px;
     border: ridge 5px black;
@@ -316,6 +315,20 @@ img.chris4{
     margin-right: 7vw;
     margin-bottom: 7vw;
     margin-top: 2vw;
+}
+/*Graph Styles*/
+div.graph{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+/*Span Styles*/
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*Footer*/
