@@ -282,36 +282,34 @@ img.chris4{
     border: 1em lightblue ridge;
 }
 .chris1{
-    height: 500px;
-    width: 450px;
-    margin-left: 7vw;
+    height: 80%;
+    width: 70%;
+    margin-left: 9vw;
     margin-right: 7vw;
-    margin-bottom: 7vw;
-    margin-top: 2vw;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
     /* padding-left: 110px; */
 }
 .chris2{
-    height: 500px;
-    width: 425px;
-    margin-left: 5vw;
+    height: 80%;
+    width: 70%;
     margin-right: 7vw;
-    margin-bottom: 7vw;
-    margin-top: 2vw;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
     
     /* padding-left: 55px; */
 }
 .chris3{
-    height: 400px;
-    width: 500px;
-    margin-left: 5vw;
+    height: 70%;
+    width: 80%;
+    margin-left: 9vw;
     margin-right: 7vw;
     margin-bottom: 7vw;
     margin-top: 2vw;
 }
 .chris4{
-    height: 575px;
-    width: 525px;
-    margin-left: 4vw;
+    height: 80%;
+    width: 75%;
     margin-right: 7vw;
     margin-bottom: 7vw;
     margin-top: 2vw;
@@ -326,9 +324,34 @@ div.graph{
     border-radius: 30px;
     margin-top: 20px;
 }
-/*Span Styles*/
-span{
+/*Pop Up Styles*/
+span.percent{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+.popUp{
+    position: relative;
+}
+.popUpText{
+    display: none;
+  width: 25%;
+  background-color: black;
+  font-size: .5em;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0%; /* At the bottom of the tooltip */
+  left: 38%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.popUp:hover .popUpText {
+    display: block;
 }
 
 /*Footer*/
@@ -345,6 +368,23 @@ footer a:link, a:visited{
 footer a:hover, a:visited{
     color: white;
     text-decoration: underline;
+}
+
+p#details{
+    animation-name: slideLEFT;
+    animation-duration: 0.6s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: slideLEFT;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes slideLEFT {

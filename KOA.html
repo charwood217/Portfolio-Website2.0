@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Home.css"/>
     <link rel="icon" type="image" href="chanel.png">
+    <script src="details.js"></script>
     <title>Coding Chris</title>
 </head>
-<body>
+<body onload="defaultText()">
     <header>
         <h1 id="title">My Knowlege and Abilities</h1>
         <div id="row1">
@@ -34,34 +35,41 @@
     <article>
         <div id="aboutMe">
             <h1>My Knowlege and Abilities</h1>
-            <p>Here are all the skills and strengths I have developed in the last two years.</p>
+            <p id="details"></p>
         </div>
+        <!-- here are all the skills and strengths I have developed in the last two years. -->
 
         <div class="graph">
-            <p>HTML</p>
-            <div class="bar"style="background-color: grey;">
-                <div class="bar2" style="height:1vw;width:95%; background-color: lightblue;"></div>
-              </div><br>
-              <p>CSS</p>
-              <div class="bar"style="background-color: grey;">
-                <div class="bar2" style="height:1vw;width: 90%; background-color: lightblue;"></div>
-              </div><br>
-              <p>Javascript</p>
-              <div class="bar"style="background-color: grey;">
-                <div class="bar2" style="height:1vw;width:65%; background-color: lightblue;"></div>
-              </div><br>
-              <p>Node.js</p>
-              <div class="bar"style="background-color: grey;">
-                <div class="bar2" style="height:1vw;width:70%; background-color: lightblue;"></div>
-              </div><br>
-              <p>PHP</p>
-              <div class="bar"style="background-color: grey;">
-                    <div class="bar2" style="height:1vw;width:20%; background-color: lightblue;"></div>
-                  </div><br>
-                <p>API's</p>
-                <div class="bar"style="background-color: grey;">
-                        <div class="bar2" style="height:1vw;width:70%; background-color: lightblue;"></div>
-                      </div><br>
+            <p class="popUp">HTML</p>
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('After Two Years plus of learning and using HTML I am confident in my proficency coding this language.')" onmouseout="defaultText()">
+                <div class="popUp" style="height:1vw;width:95%; background-color: lightblue;"></div>
+                <p class="popUpText"><span class="percent">95%</span></p>
+            </div><br>
+            <p>CSS</p>
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I am very confident in my CSS skills becasue it is my favorite language, I love being creative.')" onmouseout="defaultText()">
+                <div class="popUp" style="height:1vw;width: 90%; background-color: lightblue;"></div>
+                <p class="popUpText"><span class="percent">90%</span><br></p>
+            </div><br>
+            <p>Javascript</p>
+            <div class="popUp"style="background-color: grey;" onmouseover='changeText("I haven`t had as much expiernce in Javascript as I should but I still am able to make efficient code.")' onmouseout="defaultText()">
+                <div class="popUp" style="height:1vw;width:65%; background-color: lightblue;"></div>
+                <p class="popUpText"><span class="percent">65%</span><br></p>
+            </div><br>
+            <p>Node.js</p>
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I have worked with node for only a limited time but I picked up on it very quickly and made advanced projects with it.')" onmouseout="defaultText()">
+                <div class="popUp" style="height:1vw;width:70%; background-color: lightblue;"></div>
+                <p class="popUpText"><span class="percent">70%</span><br></p>
+            </div><br>
+            <p>PHP</p>
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I only have a very basic understanding of PHP but, it gave me a good understanding of backend development.')" onmouseout="defaultText()">
+                <div class="popUp" style="height:1vw;width:20%; background-color: lightblue;"></div>
+                <p class="popUpText"><span class="percent">20%</span><br></p>
+            </div><br>
+            <p>API's</p>
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('Not only do I have a good understanding of use to use APIs correctly but I love using fun ones on my off time.')" onmouseout="defaultText()">
+                <div class="popUp" style="height:1vw;width:70%; background-color: lightblue;"></div>
+                <p class="popUpText"><span class="percent">70%</span><br></p>
+            </div><br>
         </div>
     </article>
 
