@@ -8,25 +8,22 @@
     <script src="details.js"></script>
     <title>Coding Chris</title>
 </head>
-<body onload="defaultText()">
+<body onload="defaultHead(), defaultText()" >
     <header>
         <h1 id="title">My Knowlege and Abilities</h1>
         <div id="row1">
             <nav>
-                <div class="col-1-5">
+                <div class="col-1-4">
                     <a href="index.html">Home</a>
                 </div>
-                <div class="col-1-5a">
-                    <a href="KOA.html">Knowlege and Abilities</a>
+                <div class="col-1-4a">
+                    <a href="KOA.html">Skills & Experience</a>
                 </div>
-                <div class="col-1-5">
+                <div class="col-1-4">
                     <a href="work.html">My Projects</a>
                 </div>
-                <div class="col-1-5">
-                    <a href="goals.html">Career Goals</a>
-                </div>
-                <div class="col-1-5">
-                    <a href="gallery.html">Gallery</a>
+                <div class="col-1-4">
+                    <a href="contact.html">Contact Me</a>
                 </div>
             </nav>
         </div>
@@ -34,47 +31,47 @@
 
     <article>
         <div id="aboutMe">
-            <h1>My Knowlege and Abilities</h1>
+            <h1 id="head"></h1>
             <p id="details"></p>
         </div>
         <!-- here are all the skills and strengths I have developed in the last two years. -->
 
         <div class="graph">
             <p class="popUp">HTML</p>
-            <div class="popUp"style="background-color: grey;" onmouseover="changeText('After Two Years plus of learning and using HTML I am confident in my proficency coding this language.')" onmouseout="defaultText()">
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('After Two Years plus of learning and using HTML I am confident in my proficency coding this language.'), changeHead('HTML')" onmouseout="defaultText(), defaultHead()">
                 <div class="popUp" style="height:1vw;width:95%; background-color: lightblue;"></div>
                 <p class="popUpText"><span class="percent">95%</span></p>
             </div><br>
             <p>CSS</p>
-            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I am very confident in my CSS skills becasue it is my favorite language, I love being creative.')" onmouseout="defaultText()">
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I am very confident in my CSS skills becasue it is my favorite language, I love being creative.'), changeHead('CSS')" onmouseout="defaultText(), defaultHead()">
                 <div class="popUp" style="height:1vw;width: 90%; background-color: lightblue;"></div>
                 <p class="popUpText"><span class="percent">90%</span><br></p>
             </div><br>
             <p>Javascript</p>
-            <div class="popUp"style="background-color: grey;" onmouseover='changeText("I haven`t had as much expiernce in Javascript as I should but I still am able to make efficient code.")' onmouseout="defaultText()">
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I haven`t had as much expiernce in Javascript as I should but I still am able to make efficient code.'), changeHead('Javascript')" onmouseout="defaultText(), defaultHead()">
                 <div class="popUp" style="height:1vw;width:65%; background-color: lightblue;"></div>
                 <p class="popUpText"><span class="percent">65%</span><br></p>
             </div><br>
             <p>Node.js</p>
-            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I have worked with node for only a limited time but I picked up on it very quickly and made advanced projects with it.')" onmouseout="defaultText()">
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I have worked with node for only a limited time but I picked up on it very quickly and made advanced projects with it.'), changeHead('Node.js')" onmouseout="defaultText(), defaultHead()">
                 <div class="popUp" style="height:1vw;width:70%; background-color: lightblue;"></div>
                 <p class="popUpText"><span class="percent">70%</span><br></p>
             </div><br>
             <p>PHP</p>
-            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I only have a very basic understanding of PHP but, it gave me a good understanding of backend development.')" onmouseout="defaultText()">
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('I only have a very basic understanding of PHP but, it gave me a good understanding of backend development.'), changeHead('PHP')" onmouseout="defaultText(), defaultHead()">
                 <div class="popUp" style="height:1vw;width:20%; background-color: lightblue;"></div>
                 <p class="popUpText"><span class="percent">20%</span><br></p>
             </div><br>
             <p>API's</p>
-            <div class="popUp"style="background-color: grey;" onmouseover="changeText('Not only do I have a good understanding of use to use APIs correctly but I love using fun ones on my off time.')" onmouseout="defaultText()">
+            <div class="popUp"style="background-color: grey;" onmouseover="changeText('Not only do I have a good understanding of use to use APIs correctly but I love using fun ones on my off time.'), changeHead('API`s')" onmouseout="defaultText(), defaultHead()">
                 <div class="popUp" style="height:1vw;width:70%; background-color: lightblue;"></div>
                 <p class="popUpText"><span class="percent">70%</span><br></p>
             </div><br>
         </div>
     </article>
 
-     <footer>
-        <p>Coding Chris Portfolio 2020<br><a href="mailto: woodyharhar@gmail.com">Contact me by email here</a></p>
-    </footer>
+    <footer>
+            <p>Coding Chris Portfolio 2020<br></p>
+        </footer>
 </body>
 </html>

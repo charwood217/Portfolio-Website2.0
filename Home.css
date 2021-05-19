@@ -66,9 +66,9 @@ h1#title{
     -webkit-animation-fill-mode: forwards;
 }
 /*Divs and Rows*/
-.col-1-5{
+.col-1-4{
     /* width:19.87%; */
-    width:20%;
+    width:25%;
     float: left;
     text-align: center;
     background-color: black;
@@ -77,8 +77,8 @@ h1#title{
     padding-bottom: 10px;
     /* border: 1px lightblue solid; */
 }
-.col-1-5a{
-    width:20%;
+.col-1-4a{
+    width:25%;
     float: left;
     text-align: center;
     background-color: lightblue;
@@ -87,7 +87,7 @@ h1#title{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-div.col-1-5:hover, a:active{
+div.col-1-4:hover, a:hover{
     background-color: lightblue;
     color:black;
 }
@@ -148,6 +148,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-size: 14px;
+    padding: .7vw;
 }
 nav a:hover, a:active{
     color: black;
@@ -287,7 +288,7 @@ img.chris4{
     margin-left: 9vw;
     margin-right: 7vw;
     margin-bottom: 4vw;
-    margin-top: 4vw;
+    margin-top: 0;
     /* padding-left: 110px; */
 }
 .chris2{
@@ -295,12 +296,12 @@ img.chris4{
     width: 70%;
     margin-right: 7vw;
     margin-bottom: 4vw;
-    margin-top: 4vw;
+    margin-top: 0;
     
     /* padding-left: 55px; */
 }
 .chris3{
-    height: 70%;
+    height: 100%;
     width: 80%;
     margin-left: 9vw;
     margin-right: 7vw;
@@ -352,6 +353,85 @@ span.percent{
 }
 .popUp:hover .popUpText {
     display: block;
+}
+
+/*Contact Styles*/
+.middle {
+	position: relative;
+	transform: translateY(-50%);
+	width: 100%;
+    text-align: center;
+    /* bottom: 30%; */
+    margin-top: 10.5vw;
+
+
+}
+
+.btn {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background-color: #000000;
+    margin: 10px;
+	border-radius: 50%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #3498db;
+	overflow: hidden;
+    position: relative;
+    /* margin-top: 10.5vw; */
+}
+
+.btn svg {
+    margin: 1.5vw;
+	line-height: 90px;
+	font-size: 36px;
+	transition: 0.2 linear;
+}
+.btn:hover svg {
+	transform: scale(1.3);
+	color: #f1f1f1;
+}
+.btn::before{
+content: "";
+position: absolute;
+width: 120%;
+height: 120%;
+background-color: #3498db;
+transform: rotate(45deg);
+left: -110%;
+top: 80%;
+}
+.btn:hover::before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+.youtube:hover::before{
+	background: red;
+}
+.facebook:hover::before{
+	background: #3b5999;
+}
+.instagram:hover::before{
+	background: #e4405f;
+}
+.google:hover::before {
+	background: #dd4b39;
+}
+
+@keyframes aaa {
+	0%{
+		left: -110%;
+		top: 90%;
+	}
+	50%{
+		left: 10%;
+		top: -30%
+	}
+	100%{
+		top: -10%;
+		left: -10%;
+	}
 }
 
 /*Footer*/
