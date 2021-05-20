@@ -5,10 +5,10 @@
 /* Font Styles */
 @font-face{
     font-family:mainFont;
-    src:url(earthorbiter.ttf)
+    src:url(../earthorbiter.ttf)
 }
 html{
-     background: url("back6.jpg");
+     background: url("../Images/back6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -163,7 +163,7 @@ div.container{
 .landing{
     width: 99.4vw;
     height: 150vh;
-    background: url("landing2.jpg") center center;
+    background: url("../Images/landing2.jpg") center center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
