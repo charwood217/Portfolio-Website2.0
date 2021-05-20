@@ -13,12 +13,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="Home.css"/>
     <script src="wordspan.js"></script>
+    <script src="nav.js"></script>
     <link rel="icon" type="image" href="chanel.png">
     <!-- <link href="#" rel="stylesheet" media="print" />
     <link rel="icon" type="image" href="#"/> -->
     <title>Coding Chris</title>
 </head>
 <body>
+    <div class="nav-button">
+        <span onclick="openNav()"><img src="chanel.png" height="60px" width="60px"></span>
+    </div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="KOA.html">Skills & Experience</a>
+            <a href="work.html">My Projects</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+  
+    </div>
     <header>
         <!-- <h1 id="title">Coding Chris Portfolio</h1> -->
         <div id="row1">
